@@ -28,6 +28,7 @@ The implementation uses the U-Net architecture, a specialized convolutional netw
 - Images are padded to make them square (812×812)
 - Resized to 252×252 for input, with masks resized to 68×68
 - Contour filling to create binary segmentation masks
+  
 ![Sample](results/sample.png)
 
 ### Training Details
