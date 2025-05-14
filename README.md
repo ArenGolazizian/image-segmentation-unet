@@ -4,7 +4,9 @@
 
 This project implements a U-Net architecture for semantic segmentation of ultrasound images. The goal is to automatically identify and segment anatomical structures in ultrasound scans. The implementation uses PyTorch and demonstrates the complete workflow from data preparation through model evaluation.
 
-### Dataset
+**NOTE:** The main implementation can be found in the [`notebooks/Image-Segmentation-Unet.ipynb`](notebooks/Image-Segmentation-Unet.ipynb)
+
+**### Dataset
 - The dataset consists of ultrasound images with corresponding manual segmentation masks
 - Images are pre-processed to ensure uniform dimensions through padding
 - Training and validation sets are created with an 80/20 split
